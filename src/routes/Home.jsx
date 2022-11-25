@@ -27,7 +27,7 @@ const Home = () => {
   useEffect
 
   return (
-    <div>
+    <div className="home">
       <h1>Últimos posts</h1>
       {posts.lenght === 0 ? (<p>Carregando...</p>) : (
         posts.map((post) => (
